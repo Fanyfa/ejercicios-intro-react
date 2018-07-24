@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+.Card {
+  color: darkgrey; }
+
+.Photo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 30px; }
+
+.Card-Header {
+  display: flex;
+  align-items: center; }
+
+.User {
+  text-align: left; }
+
+.Name-User {
+  font-size: 14px;
+  margin: 10px 0 0 0; }
+
+.Date {
+  font-size: 11px;
+  margin: 5px 0 0 0; }
+
+.Parrafo {
+  font-size: 14px;
+  max-width: 280px;
+  text-align: left; }
+
+.Card-Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 280px; }
+
+.Leer {
+  font-size: 13px;
+  text-decoration: none; }
+
+.fas {
+  color: red; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
